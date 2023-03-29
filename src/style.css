@@ -1,0 +1,198 @@
+    @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+    
+    .testing{
+        height:200px;
+        background-color:lightgoldenrodyellow;
+        margin-bottom:5px!important;
+        display:flex;
+    }
+
+    .ball{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background-color:goldenrod;
+        height:100px;
+        width:100px;
+        border-radius:50px;
+        margin:50px 20px 20px;
+        white-space:wrap;
+	    overflow:visible;
+	    text-overflow:ellipsis;
+    }
+
+    .hole{
+        background-color:black;
+        height:20px;
+        width:20px;
+        border-radius:50px;
+    }
+    
+    h1{font-size:44px;}
+
+    h2{font-size:28px;}
+
+    h3{margin-top:5px;}
+
+    p{font-size:14px; line-height:1.5;}
+
+    span{font-size:14px;}
+
+    body{
+        font-family:Inconsolata, sans-serif;
+        background-color:#f8fafd;
+        padding:20px;
+    }
+
+    .container{
+        max-width:1000px;
+        margin:auto;
+    }
+
+    #cv{
+        border-color:black;
+        border-style:solid;
+        border-width:10px;
+        padding:30px;
+    }
+
+    nav{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-between;
+    }
+
+    #nav-bar{
+        display:flex;
+        min-height:40px;
+    }
+
+    #nav-bar a{
+        color:rgb(255, 255, 255);
+        margin-right:10px;
+        padding:10px;
+        background-color:black;
+        text-decoration:none;
+    }
+
+    #nav-bar a:hover{
+        color:gold;
+    }
+
+    #github, #linkedin, #twitter{
+        width:40px;
+        height:40px;
+    }
+
+    #github:hover{
+        background-color:lightgray;
+    }
+
+    #twitter:hover{
+        background-color:lightskyblue;
+    }
+
+    #sm-media{
+        display:flex;
+    }
+
+    #sm-media a{
+        display:flex;
+        margin-left:10px;
+    }
+
+    #nickname{
+        margin-top:20px;
+        margin-bottom:10px;
+    }
+
+    #data{
+        display:flex;
+        flex-wrap:wrap;
+    }
+
+    #data span{
+        margin:0px 20px 5px 0px;
+    }
+    
+    #avatar{
+        display:flex;
+        justify-content:center;
+        padding:20px 0px;
+    }
+
+    #profile-picture{
+        width:90%;
+        max-width:400px;
+        margin-top:20px;
+    }
+
+    #areas li{
+        margin-top:15px;
+        font-size:14px;
+    }
+
+    .contact-form{
+        display:flex;
+        flex-direction:column;
+        border:1px solid black;
+    }
+
+    .field{
+        padding:10px;
+        border-width:0px;
+        font-family:Inconsolata, sans-serif;
+        min-height:20px;
+    }
+
+    #email{
+        border-top:1px dashed;
+        border-bottom:1px dashed;
+    }
+
+    #comment{
+        min-height:100px;
+    }
+
+    #comment:focus-visible, #email:focus-visible, #name:focus-visible{
+        background-color:lightgoldenrodyellow;
+        outline:0px;
+    }
+
+    #send-message{
+        cursor:pointer;
+    }
+
+    .button{
+        padding:10px;
+        border-width:0px;
+        font-family:Inconsolata, sans-serif;
+        background-color:black;
+        color:white;
+        min-height:40px;
+    }
+
+    .button:hover{
+        color:gold;
+    }
+
+    @media only screen and (max-width:768px){
+
+    }
+    
+    @media only screen and (max-width:480px){
+        
+        h1{font-size:32px;}
+
+        h2{font-size:22px;}
+
+        p{font-size:12px; line-height:1.5;}
+
+        span{font-size:12px;}
+
+        body{padding:0px;}
+
+        #cv{padding:15px;}        
+
+        #areas li{font-size:12px;}
+    }
