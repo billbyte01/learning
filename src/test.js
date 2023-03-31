@@ -150,7 +150,7 @@
 // ball.innerHTML = movies
 
 
-// ---------------------- 'forEach' - changing all selected elements ----------------------
+// ---------------------- 'forEach' - changing all selected elements separately ----------------------
 
 // const balls = document.querySelectorAll('.ball')
 // console.log(balls)
