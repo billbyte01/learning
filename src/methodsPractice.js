@@ -79,10 +79,10 @@
 // console.log(vovelCount('I love to learn Java Script')) // we have x vovels in the sentence
 
 
-// ---------------------- counts the number of vovels in a sentence ----------------------
+// ---------------------- capitalise every firt letter of the word ----------------------
 
-function capitalise(text){
-    return((text.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1))).join(' '))
-}
+// function capitalise(text){
+//     return((text.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1))).join(' '))
+// }
 
-console.log(capitalise('i have a good day!'))
+// console.log(capitalise('i have a good day!'))
