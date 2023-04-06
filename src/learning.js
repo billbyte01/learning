@@ -258,3 +258,8 @@
 // const words = sentence.split(' ')
 
 // console.log(words[2], words[5])
+
+
+// ---------------------- addEventListener ----------------------
+
+document.getElementsByClassName('ball')[1].addEventListener('click', () => {console.log('clicked')})
