@@ -16,6 +16,21 @@
         width:100px;
         border-radius:50px;
         margin:50px 20px 20px;
+        margin-top:50px;
+        white-space:wrap;
+	    overflow:visible;
+	    text-overflow:ellipsis;
+    }
+
+    .grey-ball{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background-color:grey;
+        height:100px;
+        width:100px;
+        border-radius:50px;
+        margin:50px 20px 20px;
         white-space:wrap;
 	    overflow:visible;
 	    text-overflow:ellipsis;

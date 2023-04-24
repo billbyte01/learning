@@ -262,4 +262,36 @@
 
 // ---------------------- addEventListener ----------------------
 
-document.getElementsByClassName('ball')[1].addEventListener('click', () => {console.log('clicked')})
+// document.getElementsByClassName('ball')[1].addEventListener('click', () => {console.log('clicked')})
+
+
+// ---------------------- remove addEventListener + 'toggleColor' ----------------------
+
+// const circle = document.querySelector('.ball')
+// let count = 0
+
+// function toggleColor() {
+//     circle.classList.toggle('grey-ball')
+//     count++
+//     if (count > 5) {
+//         circle.removeEventListener('click', toggleColor)
+//     }
+// }
+
+// circle.addEventListener('click', toggleColor)
+
+
+//
+
+const circle = document.querySelector('.ball')
+let height = 50
+
+function moveBall() {
+    height +=10
+    circle.style.marginTop = height + 'px'
+    if (height > 90) {
+        circle.removeEventListener('click', moveBall)
+    }
+}
+
+circle.addEventListener('click', moveBall)
