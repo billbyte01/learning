@@ -283,15 +283,17 @@
 
 //
 
-const circle = document.querySelector('.ball')
+const circle = document.getElementsByClassName('ball')
 let height = 50
 
 function moveBall() {
     height +=10
-    circle.style.marginTop = height + 'px'
-    if (height > 90) {
-        circle.removeEventListener('click', moveBall)
+    for(let i=0;i<3;i++){
+        circle[i].style.marginTop = height + 'px'
+        if (height > 90) {
+            document.querySelector('.testing').removeEventListener('click', moveBall)
+        }
     }
 }
 
-circle.addEventListener('click', moveBall)
+document.querySelector('.testing').addEventListener('click', moveBall)
