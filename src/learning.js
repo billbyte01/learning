@@ -281,19 +281,22 @@
 // circle.addEventListener('click', toggleColor)
 
 
-//
+// ---------------------- remove addEventListener + move all balls down ----------------------
 
-const circle = document.getElementsByClassName('ball')
-let height = 50
+// const circle = document.getElementsByClassName('ball')
+// let height = 50
 
-function moveBall() {
-    height +=10
-    for(let i=0;i<3;i++){
-        circle[i].style.marginTop = height + 'px'
-        if (height > 90) {
-            document.querySelector('.testing').removeEventListener('click', moveBall)
-        }
-    }
-}
+// function moveBall() {
+//     height +=10
+//     for(let i=0;i<3;i++){
+//         circle[i].style.marginTop = height + 'px'
+//         if (height > 90) {
+//             document.querySelector('.testing').removeEventListener('click', moveBall)
+//         }
+//     }
+// }
 
-document.querySelector('.testing').addEventListener('click', moveBall)
+// document.querySelector('.testing').addEventListener('click', moveBall)
+
+
+// ---------------------- 'Math.random()' ----------------------
