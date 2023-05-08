@@ -299,4 +299,11 @@
 // document.querySelector('.testing').addEventListener('click', moveBall)
 
 
-// ---------------------- 'Math.random()' ----------------------
+// ---------------------- 'Math.random()' + 'Math.floor()' ----------------------
+
+const drinkMenu = ['Vodka', 'Gin', 'Whisky']
+const randInteger = Math.random() * drinkMenu.length
+
+console.log(randInteger)
+console.log(Math.floor(randInteger))
+console.log(drinkMenu[Math.floor(randInteger)])
