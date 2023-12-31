@@ -1,53 +1,52 @@
-    @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
-    
-    .testing{
-        height:200px;
-        background-color:lightgoldenrodyellow;
-        margin-bottom:5px!important;
-        display:flex;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
 
-    .ball{
-        display:flex;
-        align-items:center;
-        justify-content:center;
-        background-color:goldenrod;
-        height:100px;
-        width:100px;
-        border-radius:50px;
-        margin:50px 20px 20px;
-        margin-top:50px;
-        white-space:wrap;
-	    overflow:visible;
-	    text-overflow:ellipsis;
-    }
+.testing {
+	height: 200px;
+	background-color: lightgoldenrodyellow;
+	margin-bottom: 5px !important;
+	display: flex;
+}
 
-    .grey-ball{
-        display:flex;
-        align-items:center;
-        justify-content:center;
-        background-color:grey;
-        height:100px;
-        width:100px;
-        border-radius:50px;
-        margin:50px 20px 20px;
-        white-space:wrap;
-	    overflow:visible;
-	    text-overflow:ellipsis;
-    }
+.ball {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: goldenrod;
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	margin: 50px 20px 20px;
+	margin-top: 50px;
+	white-space: wrap;
+	overflow: visible;
+	text-overflow: ellipsis;
+}
 
-    .hole{
-        background-color:black;
-        height:20px;
-        width:20px;
-        border-radius:50px;
-    }
+.grey-ball {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: grey;
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	margin: 50px 20px 20px;
+	white-space: wrap;
+	overflow: visible;
+	text-overflow: ellipsis;
+}
 
-    .container{
-        max-width:1000px;
-        margin:auto;
-    }
-    
-    @media screen and (max-width:480px){
-        
-    }
+.hole {
+	background-color: black;
+	height: 20px;
+	width: 20px;
+	border-radius: 50px;
+}
+
+.container {
+	max-width: 1000px;
+	margin: auto;
+}
+
+@media screen and (max-width: 480px) {
+}
