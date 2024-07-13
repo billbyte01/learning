@@ -1,0 +1,29 @@
+body{
+    background-color: #333;
+    font-size: 36px;
+    color: #fff;
+    font-family: Comfortaa;
+}
+.icon{
+    width: 100px;
+}
+table{
+    border-spacing: 0;
+    margin: 5px;
+}
+td{
+    border: 2px solid white;
+    padding: 5px;
+}
+.love{
+    width: 400px;
+    border-radius: 25px;
+    display: flex;
+    margin: auto;
+}
+.lorem{
+    color: lime;
+}
+.tomato{
+    color: tomato;
+}
