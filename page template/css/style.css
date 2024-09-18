@@ -16,6 +16,12 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: sans-serif;
+  color: beige;
+  background-color: #333;
+}
+
 a {
   text-decoration: none;
 }
