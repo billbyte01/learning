@@ -1,0 +1,43 @@
+@use './reset';
+
+section {
+    display: flex;
+    // flex-direction: row; - value fedault
+    flex-direction: row-reverse;
+    // flex-direction: column;
+    // flex-direction: column-reverse;
+    // flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+    // flex-flow: row wrap;
+}
+
+.square {
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    color: black;
+    font-size: 2.5rem;
+}
+
+.one {
+    text-align: center;
+    line-height: 200px;
+}
+
+.two {
+    position: relative;
+}
+
+.twoText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
