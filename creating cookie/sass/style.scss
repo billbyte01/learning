@@ -1,0 +1,18 @@
+@use './reset';
+
+.container{
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid white;
+    font-size: 1.5rem;
+}
+
+.cookies p,
+#cookies-btn{
+    font-size: 1.5rem;
+}
+
+#cookies-btn {
+    margin-top: 10px;
+    padding: 10px;
+}
