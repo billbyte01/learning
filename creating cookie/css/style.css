@@ -90,6 +90,10 @@ ul {
   font-size: 1.5rem;
 }
 
+#cookies {
+  display: none;
+}
+
 .cookies p,
 #cookies-btn {
   font-size: 1.5rem;
