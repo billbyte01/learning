@@ -93,9 +93,6 @@ section {
 }
 
 .four {
-  display: flex;
-}
-
-.fourText {
-  margin: auto;
+  display: grid;
+  place-items: center;
 }/*# sourceMappingURL=style.css.map */

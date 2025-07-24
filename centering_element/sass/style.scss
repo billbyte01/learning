@@ -43,9 +43,12 @@ section {
 }
 
 .four {
-    display: flex; // or 'grid'
+    // display: flex; // or 'grid'
+    display: grid;
+    place-items: center; // or place-self: center; in child element
 }
 
 .fourText {
-    margin: auto;
+    // margin: auto; //when using only display: flex; on parent element
+    
 }
