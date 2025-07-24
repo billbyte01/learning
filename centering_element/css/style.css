@@ -90,4 +90,12 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.four {
+  display: flex;
+}
+
+.fourText {
+  margin: auto;
 }/*# sourceMappingURL=style.css.map */

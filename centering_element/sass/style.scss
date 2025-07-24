@@ -41,3 +41,11 @@ section {
     justify-content: center;
     align-items: center;
 }
+
+.four {
+    display: flex; // or 'grid'
+}
+
+.fourText {
+    margin: auto;
+}
