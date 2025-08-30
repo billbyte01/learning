@@ -16,6 +16,11 @@ html {
 	scroll-behavior: smooth;
 }
 
+body {
+	font-size: 1.6rem;
+	font-family: sans-serif;
+}
+
 h1 {
 	font-size: 4rem;
 }
@@ -40,10 +45,6 @@ h6 {
 	font-size: 1.8rem;
 }
 
-p {
-	font-size: 1.6rem;
-}
-
 a {
 	text-decoration: none;
 }
@@ -52,15 +53,7 @@ img {
 	height: auto;
 }
 
-input,
-button,
-textarea,
-select {
-	font-family: inherit;
-}
-
 button {
-	border: none;
 	cursor: pointer;
 }
 
