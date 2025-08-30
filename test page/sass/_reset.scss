@@ -1,51 +1,78 @@
 *,
 *::after,
 *::before {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
- 
+
 html,
 body {
-    height: 100%;
+	height: 100%;
 }
- 
+
 html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
+	font-size: 62.5%;
+	scroll-behavior: smooth;
 }
- 
+
+h1 {
+	font-size: 4rem;
+}
+
+h2 {
+	font-size: 3rem;
+}
+
+h3 {
+	font-size: 2.5rem;
+}
+
+h4 {
+	font-size: 2.2rem;
+}
+
+h5 {
+	font-size: 2rem;
+}
+
+h6 {
+	font-size: 1.8rem;
+}
+
+p {
+	font-size: 1.6rem;
+}
+
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
- 
+
 img {
 	height: auto;
 }
- 
+
 input,
 button,
 textarea,
 select {
-    font-family: inherit;
+	font-family: inherit;
 }
- 
+
 button {
-    border: none;
-    cursor: pointer;
+	border: none;
+	cursor: pointer;
 }
- 
- 
+
 textarea {
-    resize: vertical;
+	resize: vertical;
 }
- 
+
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 ul {
-    list-style-position: inside;
+	list-style-position: inside;
 }
